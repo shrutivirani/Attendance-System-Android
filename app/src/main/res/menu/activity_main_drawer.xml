@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_ttable" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Time_table" />
+        <item android:id="@+id/nav_student_detail" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Student Details" />
+        <item android:id="@+id/nav_help" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Help" />
+        <item android:id="@+id/nav_faq" android:icon="@android:drawable/ic_menu_manage"
+            android:title="FAQ" />
+        <item android:id="@+id/nav_logout" android:icon="@android:drawable/ic_menu_send"
+            android:title="LogOut" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>

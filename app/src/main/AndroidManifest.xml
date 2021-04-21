@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dellpc.faculty" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="S2A"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="S2A"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".Login" >
+        </activity>
+        <activity android:name=".first_main_Thread" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Student_Navigation_drawer"
+            android:label="S2A"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Class_tme_table_fac"
+            android:label="@string/title_activity_class_tme_table_fac"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".Whole_time_table"
+            android:icon="@drawable/back_icon"
+            android:label="Whole Time-Table" >
+        </activity>
+        <activity android:name=".Fac_comp12_time_table" >
+        </activity>
+        <activity android:name=".Fac_comp14_time_table" >
+        </activity>
+        <activity android:name=".Fac_comp15_time_table" >
+        </activity>
+        <activity android:name=".Fac_comp13_time_table" >
+        </activity>
+        <activity android:name=".Stu_class_time_table" >
+        </activity>
+        <activity android:name=".Main2Activity_stu" >
+        </activity>
+        <activity android:name=".Stu_today_attendance" >
+        </activity>
+        <activity android:name=".Stu_monthly_attendance" >
+        </activity>
+        <activity android:name=".Select_dep_class" >
+        </activity>
+        <activity android:name=".attendance_list" >
+        </activity>
+        <activity android:name=".today_sesstion" >
+        </activity>
+    </application>
+
+</manifest>

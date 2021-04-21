@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dellpc.faculty.Stu_class_time_table">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="2mm" />
+
+    <TextView
+        android:textColor="#fd5b84"
+        android:textSize="5mm"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select One Class"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="20mm" />
+
+
+    <LinearLayout
+        android:id="@+id/lnr_comp12"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_comp12"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:text="comp 12"
+            android:textSize="2mm"
+            android:textStyle="bold"
+            android:textColor="#fd5b84"
+            android:background="@drawable/circle_a"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="10mm"
+            android:text="Computer 12"
+            android:textStyle="italic|bold"
+            android:textColor="#191919"
+            android:gravity="center"
+            android:textSize="4mm"
+
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1mm" />
+    <LinearLayout
+        android:id="@+id/lnr_comp13"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_comp13"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:text="comp 13"
+            android:textSize="2mm"
+            android:textStyle="bold"
+            android:textColor="#fd5b84"
+            android:background="@drawable/circle_a"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="10mm"
+            android:text="Computer 13"
+            android:textStyle="italic|bold"
+            android:textColor="#191919"
+            android:gravity="center"
+            android:textSize="4mm"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="1mm" />
+
+    <LinearLayout
+        android:id="@+id/lnr_comp14"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_comp14"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:text="comp 14"
+            android:textSize="2mm"
+            android:textStyle="bold"
+            android:textColor="#fd5b84"
+            android:background="@drawable/circle_a"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="10mm"
+            android:text="Computer 14"
+            android:textStyle="italic|bold"
+            android:textColor="#191919"
+            android:gravity="center"
+            android:textSize="4mm"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="1mm" />
+
+    <LinearLayout
+        android:id="@+id/lnr_comp15"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_comp15"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:text="comp 15"
+            android:textSize="2mm"
+            android:textStyle="bold"
+            android:textColor="#fd5b84"
+            android:background="@drawable/circle_a"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="10mm"
+            android:text="Computer 15"
+            android:textStyle="italic|bold"
+            android:textColor="#191919"
+            android:gravity="center"
+            android:textSize="4mm"
+
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="1mm" />
+
+
+
+</LinearLayout>

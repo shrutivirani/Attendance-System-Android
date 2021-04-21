@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.dellpc.faculty.Help">
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2mm" />
+
+        <TextView
+            android:id="@+id/tv_help"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:textColor="#00004c"
+            android:text="Help"
+            android:textSize="5mm"
+            android:gravity="center_horizontal"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2mm" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="1mm"
+            android:layout_gravity="right|top"
+            android:background="#00004c"
+            android:textSize="3mm"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView_timetable"
+        android:layout_below="@+id/linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:visibility="visible" >
+
+    </ScrollView>
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/back" />
+
+    <ListView
+        android:id="@+id/lstview_timetable"
+        android:layout_width="fill_parent"
+        android:layout_height="440dp"
+        android:layout_below="@+id/linearlayout"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center">
+
+    </ListView>
+
+</RelativeLayout>

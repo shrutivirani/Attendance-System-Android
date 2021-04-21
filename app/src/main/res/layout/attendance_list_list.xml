@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+
+        android:layout_marginBottom="5dp"
+        android:id="@+id/hhhh"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="90dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+
+                android:layout_gravity="center"
+                android:id="@+id/imageView33kj"
+                android:src="@drawable/abc_btn_switch_to_on_mtrl_00012" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Comp11"
+                android:textColor="#565656"
+                android:gravity="center"
+
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/stu_name"
+                android:layout_weight="1" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Lecture"
+                android:textColor="#4d4d4d"
+
+                android:textSize="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/E_no"
+                android:layout_weight="1" />
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

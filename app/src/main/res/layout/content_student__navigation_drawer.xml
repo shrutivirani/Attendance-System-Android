@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_stu"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_student__navigation_drawer"
+    tools:context="com.example.dellpc.faculty.Student_Navigation_drawer">
+
+    <FrameLayout
+        android:id="@+id/frm_stu"
+        android:layout_marginTop="9mm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </FrameLayout>
+    <RelativeLayout
+        android:id="@+id/option_lay1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#F0555555"
+        android:visibility="visible" >
+        <LinearLayout
+            android:id="@+id/lnr_1"
+            android:layout_width="match_parent"
+            android:layout_height="45mm"
+            android:background="@drawable/stu_profile_img"
+            android:orientation="vertical"
+            >
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="7mm"
+                android:layout_height="7mm"
+                android:background="@drawable/back_icon"/>
+        </LinearLayout>
+        <ScrollView
+            android:id="@+id/scr_info"
+            android:layout_below="@+id/lnr_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+
+
+            >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="4mm" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fd5b84"
+                        android:textSize="5mm"
+                        android:text="   Virani Shruti Amrutbhai."/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="   Full Name"
+                        android:textSize="3mm"
+                        android:textColor="#c9c9c9"/>
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.3mm"
+                        android:background="#494949"/>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="2mm" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#FFB6C1"
+                        android:textSize="4mm"
+                        android:text="   shrutivirani77@gmail.com"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="   Email ID"
+                        android:textSize="3mm"
+                        android:textColor="#c9c9c9"/>
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.3mm"
+                        android:background="#494949"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="2mm"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#FFB6C1"
+                        android:textSize="4mm"
+                        android:text="   Computer Department"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  Department Name"
+                        android:textSize="3mm"
+                        android:textColor="#c9c9c9"/>
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.3mm"
+                        android:background="#494949"/>
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="2mm"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#FFB6C1"
+                        android:textSize="3.5mm"
+                        android:text="   Computer 12"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="   Class Name"
+                        android:textSize="3mm"
+                        android:textColor="#c9c9c9"/>
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.3mm"
+                        android:background="#494949"/>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </ScrollView>
+
+
+
+
+    </RelativeLayout>
+<LinearLayout
+    android:id="@+id/lnr_stu_select"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dellpc.s2a.Login">
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="90dp"
+                    android:src="@drawable/icon_user"/>
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:textSize="4mm"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    android:hint="User Name"
+                    android:textColorHint="#c9c9c9">
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/icon_lock"/>
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:textSize="4mm"
+                    android:gravity="center"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    android:textColorHint="#c9c9c9"
+                    android:inputType="textPassword" >
+
+                </EditText>
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/log_in_bt"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/bt"
+                android:text="LogIn"
+                android:textStyle="bold"
+                android:layout_marginBottom="20px"
+                android:textColor="#fd5b84"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/back" />
+
+
+</RelativeLayout>

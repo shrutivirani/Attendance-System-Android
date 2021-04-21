@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+
+    >
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:gravity="top">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#413d3e"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Come11"
+        android:textSize="20dp"
+        android:id="@+id/Class_name_atten"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:textColor="#fd5b84"
+        android:background="#413d3e"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_weight="3" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView2"
+
+            android:src="@drawable/icon_fac"
+            android:layout_gravity="center"
+
+android:layout_marginLeft="20dp"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:text="00"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:id="@+id/tx_total"
+            android:layout_weight="0" />
+</LinearLayout>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stu_list_view"
+
+        android:fastScrollEnabled="true"
+
+        android:choiceMode="singleChoice" />
+  </LinearLayout>
+
+<Button
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+android:text="OK"
+    android:textColor="#fff"
+     android:background="@drawable/circle_bb"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginBottom="20dp"
+    android:layout_marginRight="20dp"
+    style="@style/Base.TextAppearance.AppCompat.Button"
+    />
+
+
+
+</RelativeLayout>
